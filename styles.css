@@ -1,32 +1,112 @@
-html, body {
+body {
     margin:0px;
     height: 100vh;
     font-family: Arial;
-}
-
-.container{
-    margin: 0px;
     background-color: rgba(136, 189, 188, 1);
+}
+.login-container{
     height: 100vh;
+    margin: 0px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 .signin-box{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50%;
     background-color: rgba(110, 102, 88, 1);
     padding: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     color: white;
     border-radius: 21px;
 }
 .login-input-box{
     margin-top: 20px;
     border: 0px;
-    width: 219;
+    width: 219px;
     height: 31px;
     border-radius: 9px;
     padding-left: 10px;
+    background: rgba(217, 217, 217, 1);
+
+}
+.login-button{
+    border: none;
+    margin-top: 50px;
+    color: rgba(37, 78, 88, 1);
+    background: rgba(217, 217, 217, 1);
+    width: 219px;
+    height: 48px;
+    border-radius: 45px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer{
+    color: white;
+    font-size: 12px;
+}
+.profile-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5%;
+}
+.profile-header{
+    display: flex;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+
+}
+.profile-details-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(217, 217, 217, 1);
+    width: 97%;
+    height: 70%;
+    margin-bottom: 50px;
+    border-radius: 29px;
+    padding-top: 20px;
+}
+.profile-input{
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(217, 217, 217, 1);
+    border-bottom: 1px solid white;
+    width: 80%;
+    height: 25px;
+    padding: 5px;
+    &::placeholder{
+        color: rgba(17, 45, 50, 0.6);
+        size: 16px;
+        font-weight: bold;
+    }
+}
+.profile-submit-button{
+    border: none;
+    background-color: rgba(106, 137, 136, 1);
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 31px;
+    margin-bottom: 20%;
+}
+.help-button{
+    display: flex;
+    align-self: flex-end;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 100px;
+    margin-right: 20px;
 }
