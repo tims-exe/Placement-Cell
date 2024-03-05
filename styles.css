@@ -1,0 +1,32 @@
+html, body {
+    margin:0px;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.container{
+    margin: 0px;
+    background-color: rgba(136, 189, 188, 1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(110, 102, 88, 1);
+    padding: 30px;
+    padding-bottom: 100px;
+    color: white;
+    border-radius: 21px;
+}
+.login-input-box{
+    margin-top: 20px;
+    border: 0px;
+    width: 219;
+    height: 31px;
+    border-radius: 9px;
+    padding-left: 10px;
+}
